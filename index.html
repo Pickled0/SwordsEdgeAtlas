@@ -1,3 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+
+  button {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 8px 16px;
+    margin-right: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  button:hover {
+    background-color: #3d3d3d;
+  }
+
+  iframe {
+    border: none;
+    background-color: #121212;
+  }
+</style>
+</head>
+<body>
+
 <button onclick="show('overworld')">Overworld</button>
 <button onclick="show('nether')">Nether</button>
 <button onclick="show('end')">End</button>
@@ -20,3 +54,6 @@ function show(id) {
     document.getElementById(id).style.display = "block";
 }
 </script>
+
+</body>
+</html>
